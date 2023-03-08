@@ -36,17 +36,16 @@
     <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>
 
-  <mat-card>
+  <div class="total">
     <mat-card-header>
-      <mat-card-title>Total: {{total}} </mat-card-title>
+      <mat-card-title >Total: {{total }} €</mat-card-title>
 
     </mat-card-header>
     <mat-card-actions>
-      <button mat-button>LIKE</button>
-      <button mat-button>SHARE</button>
+      <button class="comprar" mat-raised-button color="primary">Buy</button>
     </mat-card-actions>
-  </mat-card>
-  <button mat-raised-button color="primary">Primary</button>
-  <button mat-raised-button color="accent">Accent</button>
+ 
+  <a  routerLink="/" mat-raised-button color="primary">Go Back</a>
+  <button mat-raised-button color="accent">Delete All</button>
   
-  
+</div>

@@ -1,3 +1,30 @@
 table {
     width: 100%;
   }
+ 
+  .total{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+
+    
+  }
+  .comprar {
+    padding: 20px 30px;
+  }
+  @media only screen and (max-width: 700px) {
+   button,a{
+    width: 100%;
+    margin-bottom: 10px;
+   margin-right: 0px;
+   }
+   a{
+    width: 100%;
+   }
+   .total{
+    margin-top: 20px;
+    justify-content: space-around;
+    flex-direction: column;
+    
+  }
+  }

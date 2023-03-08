@@ -10,24 +10,28 @@ export class HomeComponent {
   productAlmacen=[
     {
       prodId:1, 
+      descripcion:"Hombre Pana",
       img:'./../../assets/images/t1.jpg',
      precio:400,
      
   },
   {
     prodId:2,
+    descripcion:"Hombre Sport",
     img:'./../../assets/images/t2.jpg',
      precio:300,
     
   },
   {
     prodId:3,
+    descripcion:"Lite Man Sport",
     img:'./../../assets/images/t3.jpg',
      precio:400,
     
   },
   {
     prodId:4,
+    descripcion:"Nuca Primary",
     img:'./../../assets/images/t4.jpg',
      precio:400,
      
