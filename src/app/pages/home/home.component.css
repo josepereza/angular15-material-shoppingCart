@@ -1,0 +1,29 @@
+.example-card {
+    max-width: 400px;
+  }
+
+  .container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap:10px;
+  }
+mat-card-actions{
+    display: flex;
+    flex-direction: column;
+}
+.addButton{
+    width: 100%;
+}
+mat-icon{
+    font-weight: bold;
+    padding: 5px;
+   
+}
+.cantidad button {
+    background-color: brown;
+    color:white;
+    margin: 10px;
+}
+
