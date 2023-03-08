@@ -8,19 +8,24 @@ import { HomeComponent } from './pages/home/home.component';
 import { CartComponent } from './pages/cart/cart.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { MaterialModule } from './material/material.module';
+import { FormularioComponent } from './pages/formulario/formulario.component';
+
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CartComponent,
-    NavbarComponent
+    NavbarComponent,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
