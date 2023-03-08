@@ -44,12 +44,18 @@
       <mat-card-title >Total: {{total }} €</mat-card-title>
 
     </mat-card-header>
-    <mat-card-actions>
+    <ng-container *ngIf="!ocultar"> 
+ <mat-card-actions >
       <a routerLink="/formulario" class="comprar" mat-raised-button color="primary">Buy</a>
-    </mat-card-actions>
- 
-  <a  routerLink="/" mat-raised-button color="primary">Go Back</a>
+    <a  routerLink="/" mat-raised-button color="primary">Go Back</a>
   <button mat-raised-button color="accent">Delete All</button>
+   
+    </mat-card-actions>
+
+    </ng-container>
+   
+ 
+ 
   
 </div>
     

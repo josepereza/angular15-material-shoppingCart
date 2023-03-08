@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { Producto } from 'src/app/interfaces/producto';
 import { CartService } from 'src/app/services/cart.service';
@@ -27,6 +27,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
   styleUrls: ['./cart.component.css']
 })
 export class CartComponent implements OnInit {
+  @Input() ocultar:boolean=false ;
   dataSource: any;
   displayedColumns: string[] = ['img', 'qty', 'precio','subtotal','accion'];
  total=0;

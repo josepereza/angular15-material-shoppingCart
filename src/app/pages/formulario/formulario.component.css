@@ -1,7 +1,7 @@
+
 .full-width {
   width: 100%;
 }
-
 .shipping-card {
   min-width: 120px;
   margin: 20px auto;
@@ -25,3 +25,22 @@
 .col:last-child {
   margin-right: 0;
 }
+.container{
+  width: 100%;
+  display: flex;
+}
+.formulario{
+  width: 100%;
+}
+.cart{
+  width:150%;
+}
+
+@media screen and (max-width: 900px) {
+  .container{
+    flex-direction: column;
+  }
+ 
+}
+
+
