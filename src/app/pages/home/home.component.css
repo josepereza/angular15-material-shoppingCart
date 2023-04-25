@@ -26,6 +26,11 @@ mat-icon{
     color:white;
     margin: 10px;
 }
-mat-card{
-    max-height: 100vh;
-}
+
+@media screen and (max-width: 480px) {
+    .example-card {
+        
+        width: 100% !important;
+      }
+    
+  }
