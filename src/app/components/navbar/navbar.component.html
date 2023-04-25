@@ -1,8 +1,9 @@
 <mat-toolbar color="primary">
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
-      <mat-icon>menu</mat-icon>
+      
     </button>
-    <span>My App</span>
+    <a routerLink="/home">  <span style="color: aliceblue;">Sport One Tshirts</span></a>
+   
     <span class="example-spacer"></span>
     <a routerLink="/cart" mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
       <mat-icon   matBadgeColor="warn" [matBadge]="getNumItem()" matBadgeOverlap="false" class="demo-section"><span class="material-symbols-outlined">
