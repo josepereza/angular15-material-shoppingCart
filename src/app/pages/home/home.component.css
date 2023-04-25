@@ -26,4 +26,6 @@ mat-icon{
     color:white;
     margin: 10px;
 }
-
+mat-card{
+    max-height: 100vh;
+}
